@@ -1,4 +1,4 @@
-package day4searching.stringbuilder.stringreversal;
+package day4strings.stringbuilder.stringreversal;
 
 public class ReverseStringUsingStringBuffer {
     // method to reverse a string using StringBuffer

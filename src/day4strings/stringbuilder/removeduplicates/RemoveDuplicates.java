@@ -1,4 +1,4 @@
-package day4searching.stringbuilder.removeduplicates;
+package day4strings.stringbuilder.removeduplicates;
 
 import java.util.HashSet;
 
