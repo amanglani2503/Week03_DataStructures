@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SearchingAlgorithms {
     // method to perform linear search
     public double linearSearch(int[] elements, int target){
-        double nanoToSec = 1000000;
+        double nanoToMilli = 1000000;
         double startTime = System.nanoTime();
 
         for(int element : elements) {
@@ -14,12 +14,12 @@ public class SearchingAlgorithms {
             }
         }
         double endTime = System.nanoTime();
-        return (endTime - startTime)/nanoToSec;
+        return (endTime - startTime)/nanoToMilli;
     }
 
     // method to perform binary search
     public double binarySearch(int[] elements, int target){
-        double nanoToSec = 1000000;
+        double nanoToMilli = 1000000;
         int low = 0 , high = elements.length - 1;
         int mid = 0;
 
@@ -39,6 +39,6 @@ public class SearchingAlgorithms {
         }
 
         double endTime = System.nanoTime();
-        return (endTime - startTime)/nanoToSec;
+        return (endTime - startTime)/nanoToMilli;
     }
 }
